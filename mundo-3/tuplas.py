@@ -16,6 +16,10 @@ print('-1 ', lanche[-1])
 # pega pelo fatiamento
 print('0:2', lanche[0:1])
 
+print(f'os dois últimos {lanche[-2:]}')
+
+print(f'os dois primeitos {lanche[:2]}')
+
 for l in lanche:
     print(l)
 
